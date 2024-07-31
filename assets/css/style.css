@@ -1,0 +1,354 @@
+/* .header{
+    height: 80px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.header ul {
+    display: inline;
+    text-decoration: none;
+}
+
+.header ul li {
+    float: right;
+    text-decoration: none;
+}
+
+.header ul li a{
+    color: white;
+    margin-right: 40px;
+   
+}
+.col1{
+    width: 40%;
+}
+
+.col1 h3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.col2{
+    width: 100%;
+} */
+
+.navbar-brand{
+    padding: 15px;
+    color: beige;
+}
+.nav-item :hover{
+    font-weight: bold;
+    font-style: normal;
+    color: burlywood;
+}
+ul li a :hover{
+    font-weight: 400;
+    font-style: oblique;
+    color: burlywood;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100% !important;
+   
+}
+
+.profile-card{
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ border: 2px solid gainsboro;
+    border-radius: 25px;
+    background-color: brown;
+    margin: 50px;
+
+   
+
+
+}
+.social-link{
+    position: relative;
+}
+
+.profile-card img ::before{
+    background-color: rgb(93, 93, 224);
+    border-radius: 0 20px;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+}
+.profile-card img{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(93, 93, 224);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+  
+
+}
+.card-text .para1{
+    position: relative;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: 160px;
+    color: whitesmoke;
+}
+ 
+.card-text .para{
+    color: rgb(71, 68, 64);
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    margin-top: -20px;
+}
+
+/* //card.html css  */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background-color: #f2f2f2;
+
+}
+
+.content :hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+img{
+ width:200px;
+ height: 200px;
+ text-align: center;
+ display: block;
+ margin: 0 auto;
+ border-radius: 10px ;
+}
+p{
+    text-align: center;
+    color: #5c5050;
+    padding-top: 10px
+
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e ;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+li{
+    padding: 5px;
+
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    
+}
+.checked{
+    color: #ff9f43;
+}
+.fa:hover{
+    transform:  scale(1,3);
+    transition: .6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius :20px ;
+}
+
+.buy-1{
+    background-color: #2183a2;
+}
+.buy-2{
+    background-color: #3b3e6e;
+}
+.buy-3{
+    background-color: #0b0b0b;
+}
+.buy-4{
+    background-color: #ff9f43;
+}
+
+@media(max-width: 1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width: 750px) {
+    .content{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Task css */
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+}
+.container-fluid aside{
+    width: 25%;
+    height: 390px;
+    border: 2px solid black;
+    margin-left: 0;
+    padding: 0;
+    float: left;
+    top: 2px;
+    margin-bottom: 5px;
+}
+.container-fluid article{
+    width: 74%;
+   height: 390px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    float: right;
+    display: flex;
+    margin-bottom: 5px;
+
+    
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto;
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* /// Check work */
+
+/* header {
+    height: 100px;
+    
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+  }
+  
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; 
+  }
+  
+ 
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  } */
